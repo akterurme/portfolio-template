@@ -1,0 +1,607 @@
+/* ------------------------
+
+Author:Urme Akter
+Author Uri:
+Template Name:Portfolio Template
+Version:1.0
+--------------------------------
+
+Table Of Contents
+
+	01. General css
+	02. Main Menu section
+	03. Hero section
+	04. About section
+	05. Service section
+	06. Portfolio section
+	07. Testimonial section
+	08. Counterup section
+	09. Contact section
+	10. Footer section
+	11. Scrollup section
+
+*/
+
+/*======================================
+			01. General css
+========================================
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Roboto:400,500,700,900');
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+    margin:0;
+	padding:0;
+}
+
+
+body{
+	font-family:'Montserrat', sans-serif;
+	max-width:1920px;
+    margin:0 auto;
+}
+body, html{
+	 
+	font-family:'Montserrat', sans-serif;
+	height:100%;
+}
+
+a:focus,
+a:hover,
+a:active,
+a {
+	text-decoration:none;
+	outline:none;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style:none;
+}
+
+h1{
+	font-size:45px;
+	text-transform:uppercase;
+	font-family:'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing:3px;
+	margin-top:100px;
+	color:#fff;
+	
+}
+
+h1 span{
+	
+	color:#fc0;
+}
+
+ h2{
+	 
+	font-family:'Montserrat', sans-serif;
+	font-size:30px;
+	font-weight:400;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+ h2 span{
+	 
+	 color:#fc0;
+ }
+ 
+ h3{
+	 
+	font-family:'Montserrat', sans-serif;
+	color:#fc0;
+	font-size:22px;
+	margin-top:30px;
+	margin-bottom:25px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+}
+
+h4{
+	font-family:'Montserrat', sans-serif;
+	color:#757575;
+	letter-spacing:2px;
+	margin:25px 0;
+}
+
+h5{
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:normal;
+	letter-spacing:3px;
+	line-height:40px;
+	
+}
+
+h6{
+	font-family:'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:25px;
+	color:#fc0;
+}
+
+p{
+	color:#fff;
+	font-size:15px;
+	letter-spacing:2px;
+	line-height:22px;
+	font-family:'Roboto', sans-serif;
+	text-transform:capitalize;
+}
+
+.section-padding{
+	padding:80px 0px;
+}
+
+.section-header{
+	
+	margin-bottom:30px;
+}
+
+hr{
+	background:#fc0;
+	width:100px;
+	height:2px;
+	border:0;
+	margin:0 auto;
+}
+
+/*======================================
+			02. Main Menu section
+========================================
+*/
+.navbar-light .navbar-nav .active>.nav-link{
+	
+    color:#fc0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+	letter-spacing:2px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:'Montserrat', sans-serif;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	
+	color:#fc0 !important;
+	transition:.7s;
+	
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+}
+
+.navbar-brand{
+	
+	border-bottom:2px solid#fc0;
+	font-family:'Montserrat', sans-serif;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+
+.navbar .navbar-brand span {
+	
+    color: #fc0;
+}
+
+.fa, .fas{
+	
+	color:#fff;
+	font-size:30px;
+}
+
+.navbar-light .navbar-toggler{
+	
+	outline:none;
+}
+
+/*======================================
+			03. Hero section
+========================================
+*/
+
+.banner{
+	
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/back.jpeg)no-repeat; 
+	background-attachment:fixed;
+	background-size:cover;
+	height:100vh;
+	
+	background-position:center;
+	display:flex;
+	
+	justify-content:center;
+	text-align:center;
+	flex-flow: column;
+}
+
+.banner-button a{
+	text-decoration:none;
+	color:#fff;
+	border:2px solid#fff;
+	padding:8px 20px;
+	border-radius:50px;
+	font-size:16px;
+	
+	text-transform:uppercase;
+	font-family:'Montserrat', sans-serif;
+	
+	letter-spacing:2px;
+	transition:.7s;
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+}
+
+.banner-button a:hover{
+	color:#000;
+	background:#fff;
+	border-radius:0;
+	letter-spacing:2px;
+}
+.banner h5{
+	
+	max-width:800px;
+	margin:0 auto;
+}
+
+/*======================================
+			04. About section
+========================================
+*/
+
+.about-content{
+	
+	border-left:5px solid#ffcc00;
+	padding:10px 20px;
+	font-size:18px;
+}
+
+.about-section{
+	
+	background:#232323;
+	color:#fff;
+}
+
+.about-content p{
+	text-align:justify;	
+}
+
+/*======================================
+			05. Service section
+========================================
+*/
+
+.service-section{
+	
+	background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/services.jpeg)no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+
+.service-item{
+	margin-top:50px;
+}
+
+.service-item p{
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+}
+
+.service-item i{
+	
+	font-size:40px;
+	color:#fff;
+	border:2px solid#fff;
+	border-radius:100%;
+	width:100px;
+	height:100px;
+	padding-top:30px;
+}
+
+.service-item i:hover{
+	background:#fc0;
+	border:2px solid#fc0;
+	transform:rotate(360deg);
+	
+	transition:.7s;
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+	
+}
+
+
+/*======================================
+		06. Portfolio section
+========================================
+*/
+.portfolio-section{
+	
+	background:#232323;
+	padding:70px 0px 70px;
+	border-bottom: 1px solid #3C3A3A;
+}
+
+.portfolio-content{
+	
+	position:relative;
+}
+
+.col-lg-4{
+	
+	padding-left:0;
+	padding-right:0;
+}
+
+.portfolio-overlay{
+	
+	position:absolute;
+	background:rgba(255,204,0,.8);
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:.7s;
+	
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+}
+
+.portfolio-content:hover .portfolio-overlay{
+	
+	opacity:1;
+	transform:scale(.9);
+	
+	-webkit-transform:scale(.9);
+	-moz-transform:scale(.9);
+	-ms-transform:scale(.9);
+	-o-transform:scale(.9);
+}
+
+.portfolio-overlay i{
+	
+	font-size:35px;
+	color:#fff;
+}
+.portfolio-content img{
+	
+	width:100%;	
+}
+
+/*======================================
+		07. Testimonial section
+========================================
+*/
+
+.carousel-indicators {
+	
+	bottom:-75px;
+	margin-bottom:50px;
+
+}
+.testimonials-section{
+	
+	background:#232323;
+	color:#fff;
+}
+
+.carousel-inner img{
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	border:5px solid#fff;
+	padding:5px;
+	margin-top:30px;
+}
+
+.carousel-indicators li{
+	width:14px;
+	height:14px;
+	border-radius:100%;
+	background-color:#fc0;
+	color:#fff;
+}
+
+.carousel-item p{
+	
+	max-width:800px;
+	margin:20px auto;
+}
+
+
+/*======================================
+			08. Counterup section
+========================================
+*/
+.counterup{
+	
+	background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/couterup.jpg)no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	padding:100px 0px;
+	background-position:center;
+	color:#fff;
+}
+
+.couter-area h3{
+	
+	margin-bottom:30px;
+}
+
+.couter-area span{
+	
+	border-bottom:3px solid#fff;
+	letter-spacing:2px;
+	font-size:25px;
+}
+
+
+/*======================================
+			09. Contact section
+========================================
+*/
+
+.contact-section{
+	
+	background:#232323;
+}
+
+.contact-left-side p{
+	
+	font-family:'Montserrat', sans-serif;
+	margin-bottom:30px;
+}
+
+.contact-left-side i{
+	color:#fff;
+	font-size:30px;
+}
+
+.contact-right-side input{
+	border-radius:0;
+	border:1px solid #cdcdcd;
+}
+
+textarea.form-control{
+	
+	border-radius:0;
+}
+
+.contact-right-side button{
+	border-radius:0;
+	font-size:14px;
+	font-weight:bold;
+	background:#fc0;
+	color:#fff;
+	letter-spacing:1px;
+	transition:.7s;
+	
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+}
+
+.contact-right-side button:hover{
+	
+	background:#fff;
+	color:#000;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow:none;
+}
+
+.form-control{
+	
+	background:#232323 !important;
+}
+
+.form-control:focus {
+    
+    border: 1px solid #dfdfdf;
+    outline: 0;
+    box-shadow:none;
+}
+
+
+/*======================================
+		10. Footer section
+========================================
+*/
+.footer{
+	
+	background:#232323;
+	border-top: 1px solid #3C3A3A;
+}
+
+.footer-text p{
+	
+	font-family:'Montserrat', sans-serif;
+	font-size:14px;
+}
+
+.footer-text p span{
+	color:#fc0;
+}
+
+.social-icons i{
+	
+	width:25px;
+	height:25px;
+	border-radius:100%;
+	line-height:25px;
+	color:#ffffff;
+	margin-right:12px;
+}
+	
+.social-icons .fa-facebook-f{
+	background:#3b5998;
+}
+
+.social-icons .fa-twitter{
+	background:#3a9fed;
+}
+
+.social-icons .fa-linkedin{
+	background:#0060ad;
+}
+
+.social-icons .fa-google-plus{
+	background:#DB4437;
+}
+
+/*======================================
+			11. Scrollup section
+========================================
+*/
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    display: none;
+}
+
+.scrollup i{
+	font-size:30px;
+	color:#fc0;
+}
+
+/*======================================
+			The End
+========================================			
+*/
